@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppThemes" parent="android:Theme.Material">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">#F098</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/actualsandstorm</item>
+        <item name="colorControlHighlight">@color/actualsandstorm</item>
+    </style>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/contextual_delete"
+        android:title="@string/delete"
+        android:icon="@drawable/delete">
+    </item>
+    <item
+        android:id="@+id/save_all"
+        android:title="@string/save"
+        android:icon="@drawable/save">
+    </item>
+    <item
+        android:id="@+id/select_all"
+        android:title="@string/select_all"
+        android:icon="@drawable/selectall">
+    </item>
+    <item
+        android:icon="@drawable/share"
+        android:title="@string/share"
+        android:id="@+id/share_all">
+
+    </item>
+</menu>

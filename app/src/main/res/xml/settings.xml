@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/recording_settings_title"
+        android:key="pref_key_storage_settings">
+
+        <SwitchPreference
+            android:key="recording_on_off_key"
+            android:title="@string/recording_on_off_title"
+            android:defaultValue="true"
+            android:summary="@string/recording_on_off_summary">
+        </SwitchPreference>
+
+        <ListPreference
+            android:key="inbox_size_key"
+            android:title="@string/recording_inbox_title"
+            android:dependency="recording_on_off_key"
+            android:summary="@string/inbox_size_string"
+            android:entries="@array/inbox_size_values"
+            android:entryValues="@array/inbox_size_values">
+        </ListPreference>
+
+        <ListPreference
+            android:key="recording_source_key"
+            android:title="@string/recording_source_title"
+            android:defaultValue="VOICE_CALL(RECOMMENDED)"
+            android:dependency="recording_on_off_key"
+            android:summary="@string/recording_source_string"
+            android:entries="@array/recording_source_values"
+            android:entryValues="@array/recording_source_values">
+        </ListPreference>
+
+        <ListPreference
+            android:key="file_type_key"
+            android:title="@string/recording_file_type_title"
+            android:summary="@string/recording_file_type_summary"
+            android:defaultValue=".amr"
+            android:entryValues="@array/recording_file_type_values"
+            android:entries="@array/recording_file_type_values"
+            android:dependency="recording_on_off_key">
+        </ListPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

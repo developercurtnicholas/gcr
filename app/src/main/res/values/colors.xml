@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="myGreen">#87D47C</color>
+    <color name="darkGreen">#F098</color>
+    <color name="pictonBlue">#59ABE3</color>
+    <color name="DarkPictonBlue">#4f99ca</color>
+    <color name="sanmarino">#446cb3</color>
+    <color name="tahitigold">#e87e04</color>
+    <color name="firebush">#eb9532</color>
+    <color name="white">#FFF</color>
+    <color name="studio_purple">#8e44ad</color>
+    <color name="gossip">#87d37c</color>
+    <color name="aqua">#a2ded0</color>
+    <color name="sandstorm">#FDE3A9</color>
+    <color name="actualsandstorm">#F9BF3B</color>
+    <color name="iron">#dadfe1</color>
+    <color name="lightgrey">#EEEEEE</color>
+    <color name="madang">#c8f7c5</color>
+    <color name="sunglo">#e26a6a</color>
+    <color name="lynch">#6c7a89</color>
+    <color name="radical">#f62459</color>
+</resources>

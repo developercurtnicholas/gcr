@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Gold Call Recorder</string>
+    <string name="hint">Phone Number/Name</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="incoming">Incoming</string>
+    <string name="outgoing">Outgoing</string>
+    <string name="nav_on_off">Turn Recording on/off</string>
+    <string name="New_Recording">New Recording!</string>
+    <string name="inbox_size_string">Set the total number of recordings that will be saved</string>
+    <string name="recording_source_string">Set the audio source to record from</string>
+    <string name="forgot_pin">Forgot Your Pin?</string>
+    <string name="no_date">No Date</string>
+    <string name="settings">Settings</string>
+    <string name="security">Security</string>
+    <string name="share_app">Share This App</string>
+    <string name="search">Search</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="add_note">Add Note</string>
+    <string name="delete">Delete</string>
+    <string name="call">Call</string>
+    <string name="play">Play</string>
+    <string name="select_all">Select All</string>
+    <string name="no_title_description">No Title/Description</string>
+    <string name="no_name">No Name</string>
+    <string name="delete_title">Delete Recording</string>
+    <string name="delete_message">Are you sure you want to delete the recordings</string>
+    <string name="no_recordings">No Recordings Yet</string>
+    <string name="repopulating">Restoring Recordings...</string>
+    <string name="share_recordings">Share Recordings</string>
+    <string name="recording_settings_title">Recording Settings</string>
+    <string name="recording_on_off_title">Record</string>
+    <string name="recording_on_off_summary">Turn Call Recording on or off</string>
+    <string name="recording_inbox_title">Recoding Inbox</string>
+    <string name="unlimited">UNLIMITED</string>
+    <string name="recording_source_title">Recording Source</string>
+    <string name="recording_file_type_title">File Extension</string>
+    <string name="recording_file_type_summary">Change the extension of calls being recorded.</string>
+    <string name="forgot_pass"><font size='12' color='grey'><b>Please reinstall the application to have your pin reset.
+        \n\nIf you do not remember setting a pin enter
+     0 on this screen as the pin. \n\nYou can change your pin to something else in security settings)</b></font></string>
+    <string name="recording_failed_text"><font size='12' color='grey'><b>We could not record the call.\n\n
+    Please ensure no other application is trying to \nrecord at the same time or using the media recorder.\n\n
+        If you keep getting this message do one of the following:\n
+    \n1) Go to settings and try the different recording sources\nPreferably to
+        record from the microphone and turn the speaker on during calls.\n\n
+        2)Restart the device
+    </b></font></string>
+    <string-array name="inbox_size_values">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>11</item>
+        <item>@string/unlimited</item>
+    </string-array>
+    <string-array name="recording_source_values">
+        <item>VOICE_CALL(RECOMMENDED)</item>
+        <item>DEFAULT</item>
+        <item>VOICE_COMMUNICATION</item>
+        <item>VOICE_RECOGNITION</item>
+        <item>MICROPHONE</item>
+        <item>VOICE_UPLINK</item>
+        <item>VOICE_DOWNLINK</item>
+    </string-array>
+    <string-array name="recording_file_type_values">
+        <item>.amr</item>
+        <item>.awb</item>
+        <item>.3gp</item>
+        <item>.mp4</item>
+    </string-array>
+    <string-array name="empty"></string-array>
+
+</resources>

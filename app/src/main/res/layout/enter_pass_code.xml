@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgrey"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/pass_code_pad_lock_img"
+        android:src="@drawable/phonelock"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+        <EditText
+            android:id="@+id/pass_code_edit_text"
+            android:inputType="numberPassword"
+            android:layout_width="200dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+
+    <GridView
+        android:id="@+id/pas_code_dial_grid"
+        android:numColumns="3"
+        android:listSelector="#00000000"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="0dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></GridView>
+
+    <TextView
+        android:id="@+id/forgot_pin"
+        android:textColor="@color/lynch"
+        android:text="@string/forgot_pin"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
