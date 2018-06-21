@@ -6,11 +6,6 @@
         android:icon="@drawable/delete">
     </item>
     <item
-        android:id="@+id/save_all"
-        android:title="@string/save"
-        android:icon="@drawable/save">
-    </item>
-    <item
         android:id="@+id/select_all"
         android:title="@string/select_all"
         android:icon="@drawable/selectall">

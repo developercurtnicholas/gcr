@@ -12,10 +12,4 @@
         android:icon="@drawable/navsecurity">
 
     </item>
-
-    <item
-        android:id="@+id/share"
-        android:title="@string/share_app"
-        android:icon="@drawable/navshareicon">
-    </item>
 </menu>

@@ -1,15 +1,23 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
-
+    signingConfigs {
+        config {
+            keyAlias 'GCR'
+            keyPassword 'simplekey123'
+            storeFile file('C:/Users/Kurt/Desktop/GCR/OFFICIALSIGNEDAPK.jks')
+            storePassword 'simplekey123'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
     defaultConfig {
-        applicationId "com.curt.TopNhotch.GoldCallRecorder"
-        minSdkVersion 11
-        targetSdkVersion 23
-        versionCode 6
-        versionName "1.4"
+        applicationId "com.curt.TopNhotch.GCR"
+        minSdkVersion 16
+        targetSdkVersion 25
+        multiDexEnabled true
+        versionCode 2
+        versionName "1"
     }
     buildTypes {
         release {
@@ -20,9 +28,11 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'com.android.support:recyclerview-v7:23.1.1'
-    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:recyclerview-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.google.android.gms:play-services-ads:11.0.4'
+    compile 'com.android.support:cardview-v7:25.2.0'
 }

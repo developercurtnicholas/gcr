@@ -11,14 +11,14 @@
             android:summary="@string/recording_on_off_summary">
         </SwitchPreference>
 
-        <ListPreference
+        <!-- <ListPreference
             android:key="inbox_size_key"
             android:title="@string/recording_inbox_title"
             android:dependency="recording_on_off_key"
             android:summary="@string/inbox_size_string"
             android:entries="@array/inbox_size_values"
             android:entryValues="@array/inbox_size_values">
-        </ListPreference>
+        </ListPreference> -->
 
         <ListPreference
             android:key="recording_source_key"

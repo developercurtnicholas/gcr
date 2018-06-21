@@ -1,10 +1,18 @@
 <resources>
     <string name="app_name">Gold Call Recorder</string>
+    <string name="create_dir_failed">We Could Not Create The Recordings Directory</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="create_dir_permission_denied">We need your permission to store your recordings locally.</string>
+    <string name="call_permission_denied">Could not make call due to not having the necessary permissions granted by the user</string>
     <string name="hint">Phone Number/Name</string>
+    <string name="Direcory_Permission_Denied">The Application will not be able to use the device storage. It is essential that you allow the necessary permissions</string>
     <string name="Open">Open</string>
+    <string name="No_External_Storage">It looks like you do not have have any external storage on your decive. Please insert an external storage medium to record calls</string>
     <string name="Close">Close</string>
+    <string name="Recordings_restored">Your previous recordings have been restored</string>
     <string name="incoming">Incoming</string>
     <string name="outgoing">Outgoing</string>
+    <string name="repopulation_complete_button">Continue</string>
     <string name="nav_on_off">Turn Recording on/off</string>
     <string name="New_Recording">New Recording!</string>
     <string name="inbox_size_string">Set the total number of recordings that will be saved</string>
@@ -14,7 +22,7 @@
     <string name="settings">Settings</string>
     <string name="security">Security</string>
     <string name="share_app">Share This App</string>
-    <string name="search">Search</string>
+    <string name="search">Search...</string>
     <string name="save">Save</string>
     <string name="share">Share</string>
     <string name="Yes">Yes</string>
@@ -67,6 +75,7 @@
         <item>VOICE_UPLINK</item>
         <item>VOICE_DOWNLINK</item>
     </string-array>
+
     <string-array name="recording_file_type_values">
         <item>.amr</item>
         <item>.awb</item>

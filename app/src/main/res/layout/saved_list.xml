@@ -8,6 +8,8 @@
         android:id="@+id/saved_list_view"
         android:background="#FFF"
         android:layout_width="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5dp"
         android:layout_height="match_parent"></ListView>
 
 </LinearLayout>
